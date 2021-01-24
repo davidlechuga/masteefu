@@ -3,9 +3,9 @@ import React, { Fragment } from 'react';
 import './EquipoProspectivistas.scss';
 import { Card, Icon, Image } from 'semantic-ui-react'
 import davo from '../../assets/equipo-eefu/davo.jpg'
-import bluebeat from '../../assets/equipo-eefu/bluebeat.jpeg'
-import jair from '../../assets/equipo-eefu/jair.jpeg'
-import fer from '../../assets/equipo-eefu/fer.jpeg'
+import bluebeat from '../../assets/equipo-eefu/bluebeat.jpg'
+import jair from '../../assets/equipo-eefu/jair.jpg'
+import fer from '../../assets/equipo-eefu/fer.jpg'
 
 
 

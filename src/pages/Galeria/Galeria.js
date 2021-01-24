@@ -73,7 +73,7 @@ export default function Galeria() {
 
 
                 <ReactPlayer
-                    style={{ marginTop: 20 }}
+                    style={{ marginTop: 20, marginLeft: 'auto', marginRight: 'auto' }}
                     url="https://youtu.be/ulDwT0ywJwQ"
                     controls
                     width="896px"
