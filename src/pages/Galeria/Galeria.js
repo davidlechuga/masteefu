@@ -17,7 +17,7 @@ export default function Galeria() {
     useEffect(() => {
         const fetchPosts = async () => {
             setLoading(true);
-            fetch('http://localhost:3000/comments')
+            fetch('https://my-json-server.typicode.com/davidlechuga/dbEffu/comments')
                 .then(res => res.json())
                 .then(
                     (result) => {

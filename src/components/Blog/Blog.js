@@ -19,7 +19,7 @@ export default function Blog() {
     useEffect(() => {
         const fetchPosts = async () => {
             setLoading(true);
-            fetch('http://localhost:3000/posts')
+            fetch('https://my-json-server.typicode.com/davidlechuga/dbEffu/posts')
                 .then(res => res.json())
                 .then(
                     (result) => {

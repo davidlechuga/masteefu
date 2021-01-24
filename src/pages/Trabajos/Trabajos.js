@@ -17,7 +17,7 @@ export default function Trabajos() {
     useEffect(() => {
         const fetchPosts = async () => {
             setLoading(true);
-            fetch('http://localhost:3000/profile')
+            fetch('https://my-json-server.typicode.com/davidlechuga/dbEffu/profile')
                 .then(res => res.json())
                 .then(
                     (result) => {
