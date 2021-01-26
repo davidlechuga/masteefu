@@ -91,6 +91,13 @@
             "name": "Lechuga Huerta David",
             "description": "Guillermina Baena Paz .",
             "bucket": "https://eefu.s3.amazonaws.com/trabajos/primer+libro+.pdf"
+        },
+        {
+            "id": 5,
+            "title": "Prospectiva Política: Guía para su Comprensión y Práctica.",
+            "name": "Lechuga Huerta David",
+            "description": "Guillermina Baena Paz .",
+            "bucket": "https://eefu.s3.amazonaws.com/trabajos/Estudio+de+Ecosistemas+Futuras.pdf"
         }
     ]
 }
