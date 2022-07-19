@@ -54,7 +54,7 @@ function App() {
 
 
           <AmplifySignUp
-            headerText="Crea tu cuenta para formar parte de los Estudios Prospectivos. "
+            headerText="Crea tu cuenta para formar parte de los Estudios Prospectivos."
             slot="sign-up"
             formFields={[
               { type: "username" },
