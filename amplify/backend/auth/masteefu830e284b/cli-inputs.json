@@ -1,14 +1,16 @@
 {
-    "identityPoolName": "amplifyeefuea929efe_identitypool_ea929efe",
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "masteefu830e284b_identitypool_830e284b",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplifea929efe",
-    "userPoolName": "amplifyeefuea929efe_userpool_ea929efe",
+    "resourceNameTruncated": "mastee830e284b",
+    "userPoolName": "masteefu830e284b_userpool_830e284b",
     "autoVerifiedAttributes": [
-        "email"
+      "email"
     ],
     "mfaConfiguration": "OFF",
     "mfaTypes": [
-        "SMS Text Message"
+      "SMS Text Message"
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
@@ -18,38 +20,29 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-        "email"
+      "email"
     ],
-    "userpoolClientGenerateSecret": true,
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
-        "email"
+      "email"
     ],
     "userpoolClientReadAttributes": [
-        "email"
+      "email"
     ],
-    "userpoolClientLambdaRole": "amplifea929efe_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "mastee830e284b_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "ea929efe",
-    "resourceName": "amplifyeefuea929efe",
+    "sharedId": "830e284b",
+    "resourceName": "masteefu830e284b",
     "authSelections": "identityPoolAndUserPool",
-    "authRoleArn": {
-        "Fn::GetAtt": [
-            "AuthRole",
-            "Arn"
-        ]
-    },
-    "unauthRoleArn": {
-        "Fn::GetAtt": [
-            "UnauthRole",
-            "Arn"
-        ]
-    },
     "useDefault": "default",
     "usernameAttributes": [
-        "email"
+      "phone_number"
     ],
     "userPoolGroupList": [],
     "serviceName": "Cognito",
-    "dependsOn": []
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
 }

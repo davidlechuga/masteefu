@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-masteefu-dev-124150-authRole",
+      "UnauthRoleArn": "arn:aws:iam::449463433058:role/amplify-masteefu-dev-124150-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::449463433058:role/amplify-masteefu-dev-124150-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-masteefu-dev-124150-deployment",
+      "UnauthRoleName": "amplify-masteefu-dev-124150-unauthRole",
+      "StackName": "amplify-masteefu-dev-124150",
+      "StackId": "arn:aws:cloudformation:us-east-1:449463433058:stack/amplify-masteefu-dev-124150/06370b60-0914-11ed-8df5-0a5749db949f",
+      "AmplifyAppId": "d3np3ls49mxmz6"
+    },
+    "categories": {
+      "auth": {
+        "masteefu830e284b": {}
+      }
+    }
+  }
+}
